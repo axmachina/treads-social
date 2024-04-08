@@ -22,6 +22,7 @@ And a lot more to be added soon...
 
 ## To Do's
 
+- Fix Instagram/Facebook login (code ready / fix api)
 - Activity feature for user to see follow requests and his/her daily activity.
 - Notifications
 - Maps showing status updates of people followed
@@ -41,7 +42,10 @@ Clone the repo locally then install all the dependencies using [NPM](https://npm
 $ git clone https://github.com/axmachina/treads-social.git
 $ cd treads-social
 $ npm i
+$ ./start.sh
 ```
+
+Use *.sh scripts to manage app.
 
 ## Local Development
 
