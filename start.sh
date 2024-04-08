@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Source the environment variables
+. .local/env.sh
+
 # Start npm and send it to the background
 npm start &
 
