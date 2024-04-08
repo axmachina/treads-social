@@ -1,5 +1,12 @@
-export g_client_id=""
-export g_client_secret=""
-export dbUrl="mongodb+srv://USER:PASS@cluster0.ftnnl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+#!/bin/bash
 
-npm start
+# Start npm and send it to the background
+npm start &
+
+# Get the PID of the last background process
+PID=$!
+
+# Save the PID to a file
+echo $PID > npm.pid
+
+echo "npm started with PID $PID"
