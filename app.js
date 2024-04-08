@@ -34,7 +34,7 @@ var cooky = {
 };
 
 function setGlobalTemplateProperties(req, res, next) {
-  res.locals.appName = 'treads';
+  res.locals.appName = 'treads social';
   res.locals.AppName = 'Treads';
   next();
 }

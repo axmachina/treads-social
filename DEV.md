@@ -50,3 +50,8 @@ mongodb+srv://USER:<password>@cluster0.ftnnl.mongodb.net/?retryWrites=true&w=maj
 https://cloud.mongodb.com/v2/62147f3e076e47035886e58c#/security/database/users
 
 Make sure password is URL encoded before using it in the url!
+
+# Tech stack
+
+Nodejs (server app/api)
+ExpressJS (templating)
