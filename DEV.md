@@ -55,3 +55,5 @@ Make sure password is URL encoded before using it in the url!
 
 Nodejs (server app/api)
 ExpressJS (templating)
+Nginx (web server)
+MongoDB (database)
