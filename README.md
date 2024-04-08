@@ -24,6 +24,7 @@ And a lot more to be added soon...
 
 - Activity feature for user to see follow requests and his/her daily activity.
 - Notifications
+- Maps showing status updates of people followed
 
 ## Requirements
 
